@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        h1{
+            text-align: center;
+        
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        nav{
+            background-color: floralwhite;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.459);
+
+        }
+        nav > a {
+            text-decoration: none;
+            color:blue;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        section#asuntos{ 
+            background-color: lightgrey;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 30px;
+        }
+    
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 0px 0px 5px 5px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+        }
+        article > aside{
+            background-color: rgba(192, 184, 184, 0.589);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+            border-radius: 30px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meus sites</h1>
+        <nav>
+            <a href="@">&</a>
+            <a href="@">&</a>
+            <a href="@">&</a>
+            <a href="@">&</a>
+            <a href="@">&</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="asuntos">
+          <p>esporte politica tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, illo. Soluta id praesentium officia inventore, consectetur, similique aperiam esse debitis, cumque qui enim eligendi voluptates dicta quae pariatur temporibus aliquam?</p>
+                <aside>
+                   <p>Artigo escrito por jose da silva </p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <P>Desenvolvido pelo Curso em Video</P>
+            
+    </footer>
+</body>
+</html>
