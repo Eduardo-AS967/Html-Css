@@ -1,4 +1,6 @@
-
+Cordel Moderno
+Por Milton Duarte
+[SITE: https://www.recantodasletras.com.br/poesia/3186743]
 Estou ficando cansado
 
 Da tal tecnologia
@@ -13,7 +15,7 @@ Antes que eu caduque
 
 Vou dizer tudo em poesia.
 
- 
+ //---
 
 Não é mais como era antes
 
@@ -29,7 +31,7 @@ Basta botar uma flor
 
 E um coração desenhado.
 
- 
+ //---
 
 Arroba agora não pesa
 
