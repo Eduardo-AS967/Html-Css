@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible Box</title>
-    <style>
+    <style> 
+        body {
+            background-color: antiquewhite;
+        }
+
         div.conteiner{
             background-color:rgb(221, 177, 160);
             height: 300px;
+            margin: 140px 0px;
             display: flex;
             flex-flow: row nowrap;
             justify-content:center;
-            align-items: stretch;
+            align-items: center;
         }
 
         div.item{
+            height: 50px;
+            width: 200px;
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
+            
         
         }
+
     </style>
 </head>
 <body>
