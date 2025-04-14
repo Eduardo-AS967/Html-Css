@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
-header > nav {
+header, header > nav {
     flex-flow: column nowrap;
 }
 
 header > h1 {
-    flex-basis: 85px;
+    flex-basis: 50px;
+    justify-content: center;
+    
 }
 
 header > nav > a {
